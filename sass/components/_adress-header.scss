@@ -1,0 +1,66 @@
+.address {
+  display: flex;
+  margin-left: auto;
+}
+
+.adress-header {
+  display: flex;
+  color: var(--main-text-color);
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14x;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition: color 250ms var(--timing-function);
+}
+
+.adress-header__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.adress-header__mail,
+.adress-header__tel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  margin-bottom: auto;
+  color: #757575;
+  font-style: normal;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
+
+  &:hover .adress-header__icon-envelope,
+  &:focus .adress-header__icon-envelope,
+  &:hover .adress-header__icon-smartphone,
+  &:focus .adress-header__icon-smartphone {
+    fill: var(--accent-text-color);
+  }
+}
+
+.adress-header__icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--main-text-color);
+}
+.adress-header__icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--main-text-color);
+  transition: fill 250ms var(--timing-function);
+}

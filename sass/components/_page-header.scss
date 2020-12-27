@@ -1,0 +1,8 @@
+.page-header {
+  display: flex;
+  align-items: center;
+}
+
+.adress-header .site-nav__item + .site-nav__item {
+  margin-left: 50px;
+}

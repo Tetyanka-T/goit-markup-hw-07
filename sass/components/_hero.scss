@@ -1,0 +1,45 @@
+.hero-section {
+  text-align: center;
+  color: #ffffff;
+  font-family: var(--main-font);
+}
+
+.hero-canvas {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../image/studia/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-title {
+  margin-left: 280px;
+  margin-right: 236px;
+  padding-top: 200px;
+
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+}
+.hero-button {
+  min-width: 136px;
+  padding: 10px 27px;
+  margin-top: 30px;
+  margin-bottom: 200px;
+
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.36;
+  background-color: var(--accent-text-color);
+}
