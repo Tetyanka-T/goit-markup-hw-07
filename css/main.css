@@ -794,6 +794,7 @@ footer {
   background-position: center;
   background-color: var(--accent-text-color);
   background-origin: border-box;
+  border: none;
   background-color: var(--accent-background-color);
 }
 
